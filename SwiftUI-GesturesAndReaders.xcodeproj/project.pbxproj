@@ -11,9 +11,9 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		DE5C96792F4CAE4E003FEF52 /* SwiftUI-LongPressGesture */ = {
+		DE5C96792F4CAE4E003FEF52 /* SwiftUI-GesturesAndReaders */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "SwiftUI-LongPressGesture";
+			path = "SwiftUI-GesturesAndReaders";
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -32,7 +32,7 @@
 		DE5C966E2F4CAE4E003FEF52 = {
 			isa = PBXGroup;
 			children = (
-				DE5C96792F4CAE4E003FEF52 /* SwiftUI-LongPressGesture */,
+				DE5C96792F4CAE4E003FEF52 /* SwiftUI-GesturesAndReaders */,
 				DE5C96782F4CAE4E003FEF52 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -61,7 +61,7 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				DE5C96792F4CAE4E003FEF52 /* SwiftUI-LongPressGesture */,
+				DE5C96792F4CAE4E003FEF52 /* SwiftUI-GesturesAndReaders */,
 			);
 			name = "SwiftUI-LongPressGesture";
 			packageProductDependencies = (
@@ -85,7 +85,7 @@
 					};
 				};
 			};
-			buildConfigurationList = DE5C96722F4CAE4E003FEF52 /* Build configuration list for PBXProject "SwiftUI-LongPressGesture" */;
+			buildConfigurationList = DE5C96722F4CAE4E003FEF52 /* Build configuration list for PBXProject "SwiftUI-GesturesAndReaders" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -309,7 +309,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		DE5C96722F4CAE4E003FEF52 /* Build configuration list for PBXProject "SwiftUI-LongPressGesture" */ = {
+		DE5C96722F4CAE4E003FEF52 /* Build configuration list for PBXProject "SwiftUI-GesturesAndReaders" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DE5C96802F4CAE4F003FEF52 /* Debug */,
