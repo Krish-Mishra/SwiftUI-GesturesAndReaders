@@ -9,17 +9,17 @@ import SwiftUI
 
 struct GeometryReaderView: View {
     
-    func getPercentage(geo : GeometryProxy, containerWidth : CGFloat) -> Double {
-        let maxDistance = containerWidth / 2
-        let currX = geo.frame(in: .global).midX
+    func getPercentage(geo : GeometryProxy, containerHeight : CGFloat) -> Double {
+        let maxDistance = containerHeight / 2
+        let currX = geo.frame(in: .global).midY
         return Double(1 - (currX/maxDistance))
     }
     
     var body: some View {
         GeometryReader { outerGeo in
             ZStack {
-                ScrollView(.horizontal, showsIndicators: false) {
-                    HStack {
+                ScrollView(.vertical, showsIndicators: false) {
+                    VStack {
                         ForEach(0..<20) { index in
                             GeometryReader { geometry in
                                 Image("Mandu")
@@ -29,7 +29,7 @@ struct GeometryReaderView: View {
                                     .frame(width: 300, height: 250)
                                     .cornerRadius(20)
                                     .rotation3DEffect(
-                                        .degrees(getPercentage(geo: geometry, containerWidth: outerGeo.size.width) * 30.0),
+                                        .degrees(getPercentage(geo: geometry, containerHeight: outerGeo.size.height) * 30.0),
                                         axis: (x: 0.0, y: 1.0, z: 0.0)
                                     )
                             }
