@@ -15,7 +15,7 @@ struct LongPressGestureView : View {
     var body: some View {
         VStack {
             Rectangle()
-                .fill(isSuccess ? Color.green : Color.blue)
+                .fill(isSuccess ? Color.green : Color.yellow)
                 .frame(maxWidth: isComplete ? .infinity : 0)
                 .frame(height: 55)
                 .frame(maxWidth: .infinity, alignment: .leading)
